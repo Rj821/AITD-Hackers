@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Memoria AI
 
 Memoria AI is an organizational memory system that remembers, learns, and provides intelligent recommendations based on past experiences.
@@ -50,3 +51,7 @@ npm run dev
 - The backend now supports PDF/DOCX parsing, Hindsight vector ingest/search workflow, PostgreSQL via `DATABASE_URL`, and Alembic migrations.
 - The frontend includes file ingest, tag support, and a richer React Flow knowledge graph with custom node cards and connection styling.
 - If Hindsight is not configured, the app still stores local memory and serves search/timeline/insights.
+=======
+# AITD-Hackers
+This is a project created by AITD Hackers.
+>>>>>>> 9c009939b16bbc06e8de3d9da2aede33486e6302
