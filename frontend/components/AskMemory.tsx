@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
 const backendUrl = "http://localhost:8000";
 
@@ -19,7 +19,7 @@ export default function AskMemory() {
   const [answer, setAnswer] = useState<string | null>(null);
   const [matches, setMatches] = useState<MemoryMatch[]>([]);
 
-  const handleQuery = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleQuery = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const response = await fetch(`${backendUrl}/query`, {
       method: "POST",

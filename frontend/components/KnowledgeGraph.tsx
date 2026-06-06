@@ -9,6 +9,7 @@ import ReactFlow, {
   Edge,
   Handle,
   Position,
+  MarkerType,
   ReactFlowProvider,
 } from "reactflow";
 import "reactflow/dist/style.css";
@@ -92,7 +93,7 @@ export default function KnowledgeGraph() {
       animated: true,
       style: { stroke: "#38bdf8" },
       markerEnd: {
-        type: "arrowclosed",
+        type: MarkerType.ArrowClosed,
         color: "#38bdf8",
       },
       labelBgPadding: [6, 4],
